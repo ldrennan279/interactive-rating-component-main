@@ -1,0 +1,106 @@
+/**********/
+/**Mobile**/
+/**********/
+body{
+    margin: 0 ;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif; 
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%) ;
+}
+.container, .thank-you{
+    max-width:375px;
+    align-self: center;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: hsl(213, 19%, 18%) ;
+}
+.container{
+    position: relative;
+    border-radius: 30px;
+}
+.star, #num-btn{
+    background-color: hsl(216, 12%, 8%);
+    padding: 15px;
+    border-radius: 50%;
+    border: none;
+}
+.header, .thanks, .keep-intouch{
+    color: hsl(0, 0%, 100%);
+}
+/* font-wieght 400 */
+.title, .result,.keep-intouch {
+    font-weight: 400;
+}
+.title{
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    margin: 0;
+}
+.num-selection{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+#num-btn, .rating--submit-btn{
+    cursor: pointer;
+}
+#num-btn{
+    color: hsl(216, 12%, 54%) ;
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+}
+#num-btn:hover, #num-btn:focus{
+    background-color: hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+}
+.rating--submit-btn:hover, .rating--submit-btn:focus{
+    color: hsl(25, 97%, 53%);
+}
+.rating--submit-btn{
+    width: 100%;
+    padding: 20px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 30px;
+
+}
+.thank-you{
+    margin: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: none;
+}
+.transaction{
+    margin:0 auto;
+    width: 200px;
+}
+.result{
+    margin: 30px auto;
+    background-color:hsl(216, 12%, 8%);
+    color: hsl(25, 97%, 53%);
+    padding: 15px 25px;
+    border: none;
+    border-radius: 30px;
+}
+.thanks{
+    margin: 10px 0px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.keep-intouch{
+    margin: 20px 0px;
+}
+
+
+
+/***********/
+/**Desktop**/
+/***********/
